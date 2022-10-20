@@ -22,9 +22,9 @@ public class Caro extends SUPERCLASEXD{
     super(genero, autor, titulo); 
     
    
-     genero=JOptionPane.showInputDialog("Ingrese el genero del disco");
-     autor=JOptionPane.showInputDialog("Ingrese Autor del disco ");
-     titulo=JOptionPane.showInputDialog("Ingrese el Titulo ");
+     genero="";
+     autor="";
+     titulo="";
      Formato=JOptionPane.showInputDialog("Ingrese El formato ");
  
                   } 
