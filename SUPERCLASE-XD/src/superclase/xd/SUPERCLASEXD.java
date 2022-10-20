@@ -14,8 +14,19 @@ public class SUPERCLASEXD {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+     private String genero;
+    
+      private String autor;
+      private String titulo;
+      
+       public SUPERCLASEXD( String genero,String autor,String titulo){
+           this. genero=genero;
+                   this.autor=autor;
+                   this.titulo=titulo;
+       }
+      
+       public String getGenero(){return genero;}
+         public String getAutor(){return autor;}
+           public String getTitulo(){return titulo;}
     
 }
