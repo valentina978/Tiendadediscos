@@ -24,6 +24,9 @@ public class SUPERCLASEXD {
                    this.autor=autor;
                    this.titulo=titulo;
        }
+
+    SUPERCLASEXD() {
+         }
       
        public String getGenero(){return genero;}
          public String getAutor(){return autor;}
