@@ -34,8 +34,11 @@ public class SUPERCLASEXD {
          public String getAutor(){return autor;}
            public String getTitulo(){return titulo;}
     public static void main(String[] args) {
+        
         Caro caro= new Caro(JOptionPane.showInputDialog("Ingrese el genero del disco"), JOptionPane.showInputDialog("Ingrese Autor del disco "),
                 JOptionPane.showInputDialog("Ingrese el Titulo "));
+        
+        Manuel manu = new Manuel("", "", "");
         
         caro.mostrarAtrib();
         
