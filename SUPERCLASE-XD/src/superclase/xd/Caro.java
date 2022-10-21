@@ -35,7 +35,7 @@ public class Caro extends SUPERCLASEXD{
      public String getFormato () { return Formato; } 
     
      public void mostrarAtrib() { 
-      JOptionPane.showMessageDialog(null,"Genero del disco:" + getGenero() + " Autor del disco " + getAutor() +" Titulo del disco " + getTitulo() + " con Id de profesor: " + getFormato());
+      JOptionPane.showMessageDialog(null,"Genero del disco:" + getGenero() + " Autor del disco " + getAutor() +" Titulo del disco " + getTitulo() + " El formato es: " + getFormato());
      
      }
 }
