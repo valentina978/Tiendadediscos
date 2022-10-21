@@ -5,6 +5,8 @@
  */
 package superclase.xd;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author cante
@@ -31,5 +33,11 @@ public class SUPERCLASEXD {
        public String getGenero(){return genero;}
          public String getAutor(){return autor;}
            public String getTitulo(){return titulo;}
-    
+    public static void main(String[] args) {
+        Caro caro= new Caro(JOptionPane.showInputDialog("Ingrese el genero del disco"), JOptionPane.showInputDialog("Ingrese Autor del disco "),
+                JOptionPane.showInputDialog("Ingrese el Titulo "));
+        
+        caro.mostrarAtrib();
+        
+    }
 }
